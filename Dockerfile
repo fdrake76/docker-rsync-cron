@@ -7,7 +7,7 @@ ENV \
     RSYNC_GID="0" \
     RSYNC_SRC="/rsync_src" \
     RSYNC_DEST="/rsync_dst" \
-    TZ="UTC" \
+    TZ="UTC"
 
 RUN set -x; \
     apk add --no-cache --update rsync sudo openssh tzdata \
